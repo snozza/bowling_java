@@ -41,4 +41,13 @@ public class BowlingGameTest {
         rollMany(17, 0);
         assertThat(g.score()).isEqualTo(16);
     }
+
+    @Test
+    public void testOneStrike() throws Exception {
+        g.roll(10);
+        g.roll(3);
+        g.roll(4);
+        rollMany(16, 0);
+        assertThat(g.score()).isEqualTo(24);
+    }
 }

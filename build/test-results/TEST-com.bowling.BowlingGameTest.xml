@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bowling.BowlingGameTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-03-03T08:45:15" hostname="Andrews-MacBook-Pro-3.local" time="0.052">
+<testsuite name="com.bowling.BowlingGameTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-03-03T08:52:09" hostname="Andrews-MacBook-Pro-3.local" time="0.036">
   <properties/>
-  <testcase name="testGutterGame" classname="com.bowling.BowlingGameTest" time="0.051"/>
-  <testcase name="testOneSpare" classname="com.bowling.BowlingGameTest" time="0.001"/>
-  <testcase name="testAllOnes" classname="com.bowling.BowlingGameTest" time="0.0"/>
+  <testcase name="testOneStrike" classname="com.bowling.BowlingGameTest" time="0.034"/>
+  <testcase name="testGutterGame" classname="com.bowling.BowlingGameTest" time="0.001"/>
+  <testcase name="testOneSpare" classname="com.bowling.BowlingGameTest" time="0.0"/>
+  <testcase name="testAllOnes" classname="com.bowling.BowlingGameTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
