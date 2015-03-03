@@ -17,6 +17,11 @@ public class BowlingGameTest {
             g.roll(pins);
     }
 
+    private void rollSpare() {
+        g.roll(5);
+        g.roll(5);
+    }
+
     @Test
     public void testGutterGame() throws Exception {
         rollMany(20, 0);
@@ -31,8 +36,7 @@ public class BowlingGameTest {
 
     @Test
     public void testOneSpare() throws Exception {
-        g.roll(5);
-        g.roll(5);
+        rollSpare();
         g.roll(3);
         rollMany(17, 0);
         assertThat(g.score()).isEqualTo(16);
